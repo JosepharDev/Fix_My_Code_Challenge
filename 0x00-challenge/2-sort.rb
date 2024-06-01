@@ -3,7 +3,7 @@
 #  Sort integer arguments (ascending) 
 #
 ###
-ult = []
+result = []
 ARGV.each do |arg|
     # skip if not an integer
     next if arg !~ /^-?[0-9]+$/
